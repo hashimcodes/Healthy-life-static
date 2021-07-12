@@ -133,8 +133,9 @@ h1 {
         padding: 0px;
     }
 
-    .navbar .ul{
+    .navbar ul{
         padding: 15px;
         background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
     }
 }
