@@ -79,3 +79,62 @@ h1 {
     background-color: #3751fe;
     margin-bottom: 10px;
 }
+
+
+/*Tablet and under size screens*/
+@media(max-width: 768px) {
+    body{
+        padding-bottom: 20px;
+    }
+    
+    .grid{
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+
+    form{
+        text-align: center;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: auto;
+        height: auto;
+        position: inherit;
+        left: 0px;
+        top: 0px;
+        border: 0px;
+        border-radius: 10px;
+        zoom: 1;
+        padding-bottom: 40px;
+    }
+
+    .item2{
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+
+    img{
+        display: none;
+    }
+}
+
+
+/*Mobile*/
+@media(max-width: 600px) {
+    .navbar{
+        height: 110px;
+    }
+
+    .navbar .flex{
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 0px;
+    }
+
+    .navbar .ul{
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+}

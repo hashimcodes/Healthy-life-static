@@ -107,6 +107,7 @@ function result(){
     }
 }
  
+
 const bmiToServer = async (bmi)=>{ 
     await fetch('/result',{
     method : 'POST',
