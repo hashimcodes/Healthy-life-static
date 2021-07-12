@@ -124,7 +124,7 @@ h1 {
 /*Mobile*/
 @media(max-width: 600px) {
     .navbar{
-        height: 110px;
+        height: 115px;
     }
 
     .navbar .flex{
