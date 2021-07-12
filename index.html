@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Life</title>
+    <link rel="stylesheet" href="css/home-style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/png" href="resources/pics/hf.png">
+</head>
+<body>
+
+  <div class="navbar">
+      <div class="container flex">
+        <h1>Healthy Life</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="login.html">Account</a></li>
+        </ul>
+        </nav>
+      </div>
+  </div>
+
+  
+  <section class="main-layout">
+    <div id="res"></div>
+    <div class="container grid">
+      <div class="item">
+        <h1>Change your life today,<br/>health is matter.</h1>
+
+        <form
+          class="input-form"
+          method="post"
+          autocomplete="on"
+          validate
+        >
+        <!--
+        <label class="email"><b>Email:</b></label>
+        <br>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Enter your Email please"
+          value=""
+        />
+        <br><br>
+        -->
+        <label class="height-label"><b>Height:</b></label>
+        <br>
+        <input
+          type="text"
+          name="hightd"
+          id="heightID"
+          placeholder="Enter your height in CM"
+          value=""
+        />
+        <br /><br />
+        <label class="weight-label"><b>Weight:</b></label>
+        <br>
+        <input
+          type="text"
+          name="weightd"
+          id="weightID"
+          placeholder="Enter your weight in KG "
+          value=""
+        />
+        <br/><br/>
+        <input id="clickMe" type="button" value="Calculate" onclick="result()" />
+      </form>
+
+      <p id="warr-msg">Error: Please Enter your Height and Weight correctly</p>
+
+      <p class="bmi-info">Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.
+        <br>
+        <br>Underweight =<18.5
+        <br>Normal weight = 18.5–24.9
+        <br>Overweight = 25–29.9
+        <br>Obesity = BMI of 30 or greater</p>
+    </div>
+      
+    <img id="fitPic" src="resources/pics/fitPic1.png" alt="Fitness"/>
+  </section>
+    
+</body>
+<script src="scripts/result.js"></script>
+</html>
